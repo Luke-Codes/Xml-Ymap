@@ -1,6 +1,10 @@
 body {
 	font-family: sans-serif;
 	text-align: center;
+	background-image: URL(./bginfobox.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80vh 40vh;
 }
 
 #content {
@@ -8,6 +12,8 @@ body {
 	top: 50%;
 	lefT: 50%;
 	transform: translate(-50%, -50%);
+	
+	
 }
 
 #footer {
