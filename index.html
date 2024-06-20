@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width"/>
+		<title>Converter</title>
+		<link rel="icon" href="../poodle.ico"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css"/>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<h1>Luke Converter</h1>
+			<p>Faça upload do XML que deseja converter para YMAP.</p>
+			
+			<form method="POST" action="https://redm.khzae.net/lambda2ymap/convert" enctype="multipart/form-data">
+				<strong>Mapa(XML): </strong>
+				<input id="map-file" name="map" type="file" accept="text/xml"/>
+				<input id="submit-btn" type="submit" value="Convert to ymap!" disabled="disabled"/>
+			</form>
+		</div>
+	</body>
+</html>
